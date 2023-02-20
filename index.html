@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EDU</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="base.css" type="text/css" />
+	<script type="text/javascript" src="jquery.js"/></script>
+	<script type="text/javascript" src="base.js"/></script>
+</head>
+<body>
+	<div id="page-wrapper" class="border-silver">
+	  <h1 id="heading">Kontaktforma</h1>
+		<div id="errors" class="color-red"></div>
+		<form action="index.html" id="form" method="post">
+			<div class="row">
+				<label>Vārds, Uzvārds: <font class="color-red">*</font></label>
+				<input type="text" name="full-name" value="" id="full-name" />
+			</div>
+			<div class="row">
+				<label>Telefons numurs: <font class="color-red">*</font></label>
+				<input type="text" name="phone" value="" id="phone" />
+			</div>
+			<div class="row">
+				<label>Adrese:</label>
+				<input type="text" name="address" value="" id="address" />
+			</div>
+			<div class="row">
+				<label>Ziņojums: <font class="color-red">*</font></label>
+				<textarea name="message" value="" id="message" ></textarea>
+			</div>
+			<div class="row">
+				<center>
+                    <input id="submit" type="submit" value="Sūtīt &rarr;" class="btn-large" >
+				</center>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
